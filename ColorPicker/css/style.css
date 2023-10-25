@@ -1,0 +1,15 @@
+body {
+    text-align: center; /* テキストを中央揃えにする */
+    font-family: sans-serif; /* フォントをサンセリフに設定 */
+    display: grid; /* グリッドレイアウトを適用 */
+    place-items: center; /* 子要素をグリッドの中央に配置 */
+    height: 100vh; /* 画面の高さを100%に設定 */
+    background: #000; /* 背景色を黒に設定 */
+}
+div {
+    background: #fff; /* 背景色を白に設定 */
+    padding: 2rem; /* すべての側面に2remのパディングを追加 */
+    border-radius: 1rem; /* 角を丸めるための半径を1remに設定 */
+    width: 14rem; /* 幅を14remに設定 */
+    box-shadow: 0 0 1rem rgba(0,0,0,.5); /* 影を追加。オフセットなし、ブラー半径1rem、半透明の黒色 */
+}
